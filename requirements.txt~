@@ -1,0 +1,24 @@
+django-localflavor
+psycopg2
+easy_thumbnails
+django-admin-tools
+simplejson
+qrcode
+requests
+xhtml2pdf, html5lib, pyPdf2
+reportlab
+pisa
+httplib2
+
+#####################
+# En archivo /local/lib/python2.7/site-packages/sx/pisa3/pisa_util.py
+# cambiar a 
+#if not (reportlab.Version[:3]>="2.1"):
+
+#  raise ImportError("Reportlab Version 2.1+ is needed!")
+
+#REPORTLAB22 = (reportlab.Version[:3]>="2.1")
+# referencia http://stackoverflow.com/questions/22075485/xhtml2pdf-importerror-django
+######################
+
+
